@@ -124,9 +124,9 @@ print("wellcome " + name + ' \n great your now '+  age  )
 u_after10 = int(age) + 10     # in this we can cover sting to int & add number 
 
 print("you after ten " + str(u_after10))  # here we take 
-################################################################################
-################################################################################
 
+##############################################################
+##############################################################
 
 age_of_expri = int(input("what's your age ")) # her we take user input in int 
 
@@ -135,9 +135,29 @@ u_after1 = (age_of_expri) + 10     # in this we can cover sting to int & add num
 print("cool if you fight 2020 will have good day when you " + str(u_after1))  # here we take int & conver it  string 
 
 
+#################################################################
+
+product, price , qty = 'bat' , 1220 , 20 # we assin virable in one line
+
+chocklet=tofi=bhisket=cupcack=20          # we assin one value to all vireable
+
+print("we ahve " + product +   ' value of this ' + str(price) +' we have SIH ' + str(qty))
+
+print(chocklet , tofi ,bhisket,cupcack )
+
+#################################################################
+
+#now we can take input from user for multi var in onetime to do this we use .split()
+
+product , price = input("type product & price ").split( )
+product , price = input("type product & price ").split(",")  # defult it's get space for separt u can use , also
+
+print("u r product " +product +'in RS' + price)
 
 
+#############################################################
+############ now we look user string formating  #############
+#############################################################
 
-
-
+# in abow case we do loat thing in string 
 
