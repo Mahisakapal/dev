@@ -89,4 +89,4 @@ print(12**4)  # to get power of number
 
 print(2** 0.5) # in this we got long digit output to fix this we user round 
 
-print (round(2** 0.5,00) )# we user round(2** 0.5, Number of digit you want in our case we take 2
+print (round(2** 0.5,000) )# we user round(2** 0.5, Number of digit you want in our case we take 2(00)
