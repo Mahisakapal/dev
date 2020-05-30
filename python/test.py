@@ -58,3 +58,31 @@ print("\U0001F618")
 
 print("\U0001F602")
 
+
+#############################################################
+####################### now we look claculation #############
+#############################################################
+
+### operter is below 
+## + :  to add 
+## - :  substarction (minus)
+## * :  multipul
+## / :  float
+## // : intiger dived 
+## % : module 
+## ** : exponte 
+
+
+print(3+3)
+
+print(12-4)
+
+print(12 * 4)
+
+print (12/4) # floating output 
+
+print(12//4)  # intiger output 
+
+print(12% 4)
+
+print(12**4)
