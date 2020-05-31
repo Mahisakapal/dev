@@ -149,8 +149,8 @@ print(chocklet , tofi ,bhisket,cupcack )
 
 #now we can take input from user for multi var in onetime to do this we use .split()
 
-product , price = input("type product & price ").split( )
-product , price = input("type product & price ").split(",")  # defult it's get space for separt u can use , also
+product , price = input("type product & price use sapce  ").split( )
+product , price = input("type product & price use comma").split(",")  # defult it's get space for separt u can use , also
 
 print("u r product " +product +'in RS' + price)
 
@@ -159,5 +159,28 @@ print("u r product " +product +'in RS' + price)
 ############ now we look user string formating  #############
 #############################################################
 
-# in abow case we do loat thing in string 
+# in abow case we do loat thing in string to make lease aferrd use below mathod 
+# we have python 3 & python 3.6 formaating we check both 
+#{position:f or i , str} use d for space {0:2d } number & d if want this in str use  < > {0: >2} =sace in left
+# use ^ to get string in center {0:*^7s}
+
+
+price = 33
+print ("this is product {} & this is the price {}".format( product, price)) #this is python 3 formating
+
+print ("this is product {1:.2f} & this is the price {0}".format( product, price)) # here we use index & put index number
+
+
+## now we look 3.6 ###### use f {varible} {varibale}
+
+print (f"this is product {product} & this is the price {price + 2}") 
+
+################### this excersiz ###############
+
+num1, num2, num3 =  (input("please enter 3 number use coma" ).split(","))
+
+print(f"this is your avreg int :   {int(num1)+ int(num2) + int(num3)/3}")
+
+
+
 
