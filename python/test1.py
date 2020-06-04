@@ -69,7 +69,7 @@ print(f"this is the legnth of your name {len(name)} & count of {charecter} is {n
 
 print(f"{len(name)}")
 
-print(f"this count of {charecter} {name.lower().count(charecter.lower())}")
+print(f"this count of {charecter} {name.strip().lower().count(charecter.strip().lower())}") # here we remove space
 
 #normale we user to do print(f"name.count(charchater)")
 
