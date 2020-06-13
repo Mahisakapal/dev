@@ -75,3 +75,14 @@ newL= [i *2 if (i%2 ==0 ) else -i for i in num ]   # when we use else than we ha
 #                           |-----------------------|  than run this code & print -i values 
 
 
+##################################### nestede loop #####################################
+
+netted= [[i for i in range(1,4) ]for j in range(3)]   # this is for nested loop 
+
+print(netted)
+################################## count charter ########################################
+sting ='amardip'
+wcou = { chrt :sting.count(chrt) for chrt in sting}
+
+print(wcou)
+
